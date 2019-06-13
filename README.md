@@ -1,1 +1,2 @@
-# sample_form
+# Sample form
+Mint(Intuit) sign up page replicated.
