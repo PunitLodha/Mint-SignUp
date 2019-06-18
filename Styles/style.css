@@ -48,7 +48,10 @@ table {
 }
 /*Reset End*/
 
-
+a{
+	text-decoration: none;
+	color: #0077C5; 
+}
 
 body {
     background-color: #ECEEF1;
@@ -56,50 +59,78 @@ body {
 
 header{
 	box-sizing: border-box;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	padding-top: 10px;
 	padding-right: 30px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	color: #4c4c4c;
+}
+
+.forgot-pass{
+	line-height: 1.5;
 }
 
 .right{
     float: right;
 }
 
+.btn{
+	background-color: #0077C5;
+	color: #fff;
+	border: #0077C5;
+	border-radius: 2px;
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.27/images/icon-whitelock@3x.png?v=1.0.0-dev.27);
+	background-repeat: no-repeat;
+	background-size: 14px;
+}
+
+header .btn{
+	height: 33px;
+	width: 105px;
+	margin-left: 10px;
+	padding: 5px 20px;
+	background-position: 20% 50%;
+	text-align: right;
+	border: 1px solid #4c4c4c;
+}
 .logo{
 	clear: both;
 	display: block;
 	width: 400px;
-	margin: 10px auto 20px auto;
+	margin: 10px auto 0px auto;
 }
 
 .form-container{
 	display: block;
-	border: 2px solid #000;
-	width:400px;
-	height:720px;
-	margin: 10px auto 10px auto;
+	border: 1px solid #c7c7c7;
+	width:378px;
+	height:650px;
+	margin: 0px auto 22px auto;
 	background-color: #fff;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    font-weight: 400
+	font-weight: 400;
+	color: #4c4c4c;
 }
 
 form{
-	padding: 20px;
-	height: 650px;
+	padding: 30px;
+	height: 540px;
 	text-align: center;
 }
 
 form h1{
 	font-size: 25px;
 	margin: 10px;
+	margin-bottom: 20px;
 }
 form p{
 	margin-top: 10px;
 }
 form label{
 	display: block;
-	margin: 30px 10px;
+	margin: 30px 10px 30px 0px;
 	text-align: left;
 }
 
@@ -108,19 +139,76 @@ form label input{
 	margin-top: 10px;
 }
 
-input[type=text]{
-	width: 320px;
-	height: 30px;
-	border-radius: 5px solid #000;
-}
-
+input[type=text],
 input[type=password]{
-	width: 320px;
+	width: 318px;
 	height: 30px;
+	border: 1px solid #c7c7c7;
+	border-radius: 2px;
 }
 
-input[type=password]::after{
-	display: block;
-	content: "Standard call, messaging or data rate may apply.";
+form .btn{
+	width: 318px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	background-position: 28% 50%;
+	border: 1px solid #4c4c4c;
+	font-size: 16px;
+}
+
+.caution{
 	font-size: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.create{
+	display: block;
+	box-sizing: border-box;
+	width: 318px;
+	height:120px;
+	padding: 20px;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #757575;
+}
+
+.form-footer{
+	display: block;
+	position: relative;
+	right: 30px;
+	top: 3px;
+	height:35px;
+	width:378px;
+	background-color: #ECEEF1;
+	font-size: 10px;
+	color: #8d9096;
+	padding-top: 15px;
+}
+footer{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+}
+.nav{
+	width: 99%;
+	text-align: center;
+}
+.nav li{
+	display: inline-block;
+	color: #505050;
+	margin-right: 5px;
+}
+
+.nav li a{
+	color: #505050;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #505050;
+	line-height: 1.5;
 }

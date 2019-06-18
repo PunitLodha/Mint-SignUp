@@ -7,9 +7,11 @@
     </head>
     <body>
         <header>
-            <button class="right">Sign In</button>
-            <p class="right">Already have an intuit account?<br>
-             <a href="">i forgot my User ID or Password</a></p>
+            <button class="right btn">Sign In</button>
+            <div class="forgot-pass">
+            <p class="right header">Already have an Intuit account?<br>
+             <a href="" class="header">I forgot my User ID or Password</a></p>
+            </div>
         </header>
         
         <main>
@@ -26,29 +28,37 @@
                     <label >
                         Phone(Recommended)
                         <input type="text" name="Phone">
-                    </label>
+                        <p class="caution">Standard call, messaging or data rate may apply.</p>
+                    </label>             
                     <label>
                         Password
                         <input type="password" name="password">
                     </label>
-                    <input type="submit" value="Create Account">
-                <p>By clicking Create Account, you agree to our <br>
-                    Terms of Service and have read and acknowledge <br> our Privacy Statement.</p>
+                    <input type="submit" value="Create Account" class="btn">
+                <div class="create">    
+                <p> By clicking Create Account, you agree to our <br>
+                   <a href="">Terms of Service </a>and have read and acknowledge <br> our <a href="">Privacy Statement</a>.</p>
+                </div> 
+                <div class="form-footer">
+                   <p>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a></p>
+                </div>    
                 </form>
-                <p class="form-footer">Invisible reCAPTCHA by Google Privacy Policy and Terms of Use</p> 
+                
             </div>
         </main>
 
         <footer>
             <nav>
-                <ul>
+                <ul class="nav">
                     <li><a href="">Legal</a></li>
                     <li><a href="">Privacy</a></li>
                     <li><a href="">Security</a></li>
                 </ul>
             </nav>
-            <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            <div class="footer">   
+            <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
                 Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+            </div>    
         </footer>
     </body>
 </html>
