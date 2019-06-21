@@ -14,11 +14,8 @@ header{
 	padding-right: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 12px;
-	color: #4c4c4c;
-}
-
-.forgot-pass{
 	line-height: 1.5;
+	color: #4c4c4c;
 }
 
 .right{
@@ -28,7 +25,7 @@ header{
 .btn{
 	background-color: #0077C5;
 	color: #fff;
-	border: #0077C5;
+	border: 1px solid #4c4c4c;
 	border-radius: 2px;
 	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.27/images/icon-whitelock@3x.png?v=1.0.0-dev.27);
 	background-repeat: no-repeat;
@@ -42,7 +39,6 @@ header .btn{
 	padding: 5px 20px;
 	background-position: 20% 50%;
 	text-align: right;
-	border: 1px solid #4c4c4c;
 }
 .logo{
 	clear: both;
@@ -54,8 +50,8 @@ header .btn{
 .form-container{
 	display: block;
 	border: 1px solid #c7c7c7;
-	width:378px;
-	height:650px;
+	width: 378px;
+	height: 650px;
 	margin: 0px auto 22px auto;
 	background-color: #fff;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -103,7 +99,6 @@ form .btn{
 	padding: 10px;
 	text-align: center;
 	background-position: 28% 50%;
-	border: 1px solid #4c4c4c;
 	font-size: 16px;
 }
 
